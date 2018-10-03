@@ -11,8 +11,8 @@ ea_36=y
 bg_par_bio_prodopt="bio_PFeSi"
 # biological uptake time-scale
 # biological uptake time-scale
-bg_par_bio_tau_sp=95.6337
-bg_par_bio_tau_nsp=191.2674
+bg_par_bio_tau_sp=60
+bg_par_bio_tau_nsp=180
 #
 # --- ORGANIC MATTER EXPORT RATIOS ----------------------------------
 #
@@ -88,7 +88,6 @@ bg_par_d30Si_opal_epsilon=-1.1
 # --- DATA SAVING -----------------------------------------------------
 #
 bg_par_data_save_level=5
-bg_par_data_save_slice_n=4
 bg_ctrl_debug_lvl0=.true.
 ma_debug_loop=1
 #
