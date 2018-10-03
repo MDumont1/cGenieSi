@@ -9,16 +9,10 @@ ea_36=y
 #
 # biological scheme ID string
 bg_par_bio_prodopt="bio_PFeSi"
-# [PO4] M-M half-sat value (mol kg-1) [nsp DEFAULT 0.100E-06]
-bg_par_bio_c0_PO4_nsp=0.100E-06
-# [Fe] M-M half-sat value (mol kg-1) [nsp DEFAULT 0.125E-09]
-bg_par_bio_c0_Fe_nsp=0.10E-09
-# [Si] M-M half-sat value (mol kg-1) [nsp DEFAULT 4.0E-06]
-bg_par_bio_c0_SiO2_nsp=4.0E-06
+# biological uptake time-scale
 # biological uptake time-scale
 bg_par_bio_tau_sp=95.6337
-# disable nsp
-bg_par_bio_tau_nsp=9.9E9
+bg_par_bio_tau_nsp=191.2674
 #
 # --- ORGANIC MATTER EXPORT RATIOS ----------------------------------
 #
@@ -31,8 +25,6 @@ bg_par_bio_red_DOMfrac=0.66
 bg_par_bio_red_POC_CaCO3=0.0485
 # exponent for modifier of CaCO3:POC export ratio
 bg_par_bio_red_POC_CaCO3_pP=0.7440
-# Fractionation for intercellular C fixation [nsp DEFAULT 25.0]
-bg_par_d13C_DIC_Corg_ef_sp=25.0
 #
 # --- REMINERALIZATION ----------------------------------------------
 #
@@ -96,6 +88,7 @@ bg_par_d30Si_opal_epsilon=-1.1
 # --- DATA SAVING -----------------------------------------------------
 #
 bg_par_data_save_level=5
+bg_par_data_save_slice_n=4
 bg_ctrl_debug_lvl0=.true.
 ma_debug_loop=1
 #
@@ -111,3 +104,7 @@ bg_par_atm_force_scale_val_4=-6.5
 #
 # --- END -----------------------------------------------------------
 #
+Ensemble created: 180712
+bg_ctrl_bio_remin_opal_fixed=.false.
+bg_par_bio_remin_sinkingrate=83.146
+bg_par_bio_red_POC_opal=0.17185
